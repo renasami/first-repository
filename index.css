@@ -1,0 +1,36 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url(img/cop.JPG);
+    background-size: cover;
+  }
+header h1{
+    font-size:70px;
+  }
+  .container{
+      max-width:400px ;
+  }
+  input[type=text],
+  input[type=text]:focus {
+    color: #1a1b1b;
+    border:1px;
+    background: rgba(192, 192, 192, 0.5);
+    max-width: 400px;
+  }
+  input::placeholder{
+    color:black;
+  }
+  input[type=date],
+  input[type=date]:focus {
+    color: #1a1b1b;
+    border:1px;
+    background: rgba(192, 192, 192, 0.5);
+    max-width: 400px;
+  }
+  ul{
+    font-size:25px;
+    text-align:center;
+    width: 30%;
+  }
+  .gomi{
+    float:right;
+  }
